@@ -5,7 +5,13 @@
   "repository": "git@github.com:hebit/testing-netlify-functions.git",
   "author": "Hebert Oliveira <hebertoliveira@infojr.com.br>",
   "license": "MIT",
+  "scripts": {
+    "build:functions": "netlify-lambda build .netlify/functions"
+  },
   "dependencies": {
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^2.0.1"
   }
 }
